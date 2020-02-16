@@ -1,9 +1,15 @@
 {
-  "name": "mod01",
+  "name": "bootcamp-gostack-desafio-01",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
